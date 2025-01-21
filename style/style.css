@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headeer{
+    border: 20px;
+}
+/* navbar style */
+.nav_barhome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+
+
+    
+}
+.navbar{
+    background-color: rgb(222, 202, 163);
+    background-image: url(../assets/logo.png);
+    background-repeat: no-repeat;
+    background-position: top
+
+}
+
+.navv{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    width: 1160px;
+    height: 62px;
+    gap: 186px;
+    margin-left: 110px;
+    
+
+    
+}
+.school{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+   
+}   
+
+
+.nav_item{
+    list-style: none;
+    margin-right: 32px;
+    
+}
+.nav_link1{
+    text-decoration: none;
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+   
+}
+.nav_link2{
+    text-decoration: none;
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.nav_link3{
+    text-decoration: none;
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.nav_link4{
+    text-decoration: none;
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.btn{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    
+
+
+}
+.btn_container{
+    background-color: rgb(254, 163, 1);
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    text-align: center;
+    
+}
