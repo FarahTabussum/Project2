@@ -258,6 +258,11 @@
 
 }
 .card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
     width: 367.8px;
     height: 476.78px;
     box-sizing: border-box;
@@ -272,6 +277,11 @@
 }
 
 .card3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
     width: 367.8px;
     height: 476.78px;
     box-sizing: border-box;
@@ -293,6 +303,109 @@
     line-height: 57.5px;
     letter-spacing: 0%;
 }
+.card_info{
+    text-align: center;
+}
+.bttn_contain{
+    margin-bottom: 53px;
+
+}
+.para1{
+    margin-bottom: 53px;
+}
+.kin{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#btn1{
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+#btn2{
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+
+}
+
+#btn3{
+    color: rgb(135, 0, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+.card3 .image_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto
+}
+
+.card2 .image_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto
+}
+.card1 .image_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto
+}
+
+.image-button img { 
+    width: 60px; 
+    height: 60px; 
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+
+.image-button { background: none; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+
+}
+
 
 
 
